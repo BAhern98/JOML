@@ -12,7 +12,7 @@ If you like to know more about JOML's design, see the corresponding [Wiki page](
 
 Vector arithmetic
 -----------------
-All operations in JOML are designed to modify the object on which the operation is invoked. This helps in completely eliminating any object allocations, which the client could otherwise not control and which impact the GC performance resulting in small hickups.
+All operations in JOML are designed to modify the object on which the operation is invoked. This helps in completely eliminating any object allocations, which the client could otherwise not control and which impact the GC performance resulting in small hiccups.
 The client is responsible to allocate the needed working objects.
 ```Java
 Vector3f v = new Vector3f(0.0f, 1.0f, 0.0f);
